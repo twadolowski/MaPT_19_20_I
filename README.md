@@ -4,7 +4,7 @@
 # kosar@agh.edu.pl
 #### B9 r.213
 
-
+Jarosław Bułat - main lecturer of the course
 
 
 #### Laboratories
