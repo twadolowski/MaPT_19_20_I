@@ -59,6 +59,6 @@ Key points in the file system:
 5. Go to the `~/A/` directory and write the contents of `data.txt` in the console. Then run any graphics editor and check the contents of the same file.
 6. Open two consoles. In one edit file using the `vim` editor. In the second, write the contents of this file with `cat`. Please make changes to the file and see what we see in the second console.
 
-## Streams
+# 4. Streams
 
 In Linux, the command output can be passed to another command using the `|` operator. For example, calling `ls -l` will print the files in that directory, adding the `|` we can redirect its output to other command. The common command for output is `grep` which allows you to perform regular expressions on lines of text. Hence `ls -l | grep 'ala'` will print all the files contained in the description or name of the string `ala`. Another way to pass the result is to save them to a file by overwriting or creating a file `ls -l> result_ls.txt` or appending to an existing file `ls -l >> result_ls.txt`. Adding before the `>` or `>>` character can give you a specific stream. `0` is the keyboard, `1` is the standard output, `2` is the error. More details can be found here: [Chapter 20. I / O Redirection.] (Http://tldp.org/LDP/abs/html/io-redirection.html)
