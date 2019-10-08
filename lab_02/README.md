@@ -1,4 +1,4 @@
-# lab 01: Introduction to Linux
+# lab 02: Introduction to Linux
 Author: Lucjan Janowski, Michał Grega
 
 ## Introduction
