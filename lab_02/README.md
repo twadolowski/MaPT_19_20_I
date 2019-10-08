@@ -20,6 +20,7 @@ See how the `ls`, `cd`, `mkdir`, `rm`, `whoami`, `pwd` commands work. The behavi
 2. Find his home directory.
    - Check that access rights allow other users to read its content.
    - If they allow, change them so that other users have no right to read its content. Permission rights could be change by `chmod` command. The basic description of the command can be found here: [chmod] (http://www.thegeekstuff.com/2010/06/chmod-command-examples)
+   https://www.guru99.com/file-permissions.html
    - Take a look at the `chmod` numerical mode.
 3. In the home directory, create a directory named `directory` (`mkdir`). Create a text file containing your name and / or name (eg `vim file.txt`).
 >> Using the `vim` editor is not easy the first time. However, it is an editor available on almost every unix system, it allows for very efficient work, so it is worth to know him. Here you can find the short [tutorial] (http://www.openvim.com/). ** Please take a moment to read this tutorial. ** Just for this moment, it is enough to know that this editor has two modes: command mode and insert mode. Enter the insert mode by typing `i`. In the insert mode, you can enter text. Entering the command mode is done by pressing the `Esc` key. In command mode we can issue commands and move the cursor. The key command are:
