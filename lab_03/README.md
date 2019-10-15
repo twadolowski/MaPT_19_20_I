@@ -19,7 +19,7 @@ int main() {
 
 `g++ -o helloworld helloworld.cc`
 
-6. in the directery ( w którym znajduje się `helloworld.cpp`) should appear an executable file `helloworld.out `, 
+6. in the directery ( in which the `helloworld.cc` is placed) should appear an executable file `helloworld.out `, 
 
 Run the program using command (in console):
 
