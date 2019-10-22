@@ -21,7 +21,7 @@ GIT is a distributed control system. Everything could be local: branches, comple
 0. Create `git` directory and execute `cd git`. It is not obligatory, however, it is good practice to have a directory dedicated to various git repositories
 
 1. `git clone https://github.com/MiTPMaPT/MaPT_19_20_I` setup local repository and download files from remote to local  
-`cd MaPT`  
+`cd MaPT_19_20_I`  
 `ls -al`  
 Now you can change something locally eg: 'echo "myName" >> new_file.txt'
 
@@ -76,35 +76,35 @@ For example, file of the name README.md.tmp will not be added to index by the co
 ### init git local repository (clone from remote)
 `git clone https://github.com/MiTPMaPT/MaPT_19_20_I` setup local repository and download files from remote to local  
 
-`cd MaPT`  
+`cd MaPT_19_20_I`  
 `git config --global user.name "Your Name"` **first time you need configure git: provide Name and e-mail**  
 `git config --global user.email your@email.com` **in AGH labs you need to provide Name and e-mail each time after system reboot, because home directory is cleared after system reboot and all informations (including git settings) are deleted**  
 `git config --global push.default simple` method for push (safe one)  
 `git config --global credential.helper "cache --timeout=3600"` git will store you login/password for 3600 seconds after first login
 
 ### change someting in existing local git repository
-`cd git/MaPT/` assume: git is configured (see above) and repository is cloned  
+`cd git/MaPT_19_20_I/` assume: git is configured (see above) and repository is cloned  
 `git pull` download latest files from remote to local repository (so called **HEAD**)  
 change something in local repository eg `vim README.md`  
 `git commit -am "obligatory comment"` record changes to the repository  
 `git push` 
 
 ### add new file to repository
-`cd git/MaPT/` assume: git is configured (see above) and repository is cloned  
-add new files in `MaPT` directory, eg: `vim new_file.txt`  
+`cd git/MaPT_19_20_I/` assume: git is configured (see above) and repository is cloned  
+add new files in `MaPT_19_20_I` directory, eg: `vim new_file.txt`  
 `git add .` update indexed files (eg. add new files)  
 `git commit -am "new files or similar description"` record changes to the repository  
 `git push`  
 
 ### remove files/dirs from repo
-`cd git/MaPT/` assume: git is configured (see above) and repository is cloned  
+`cd git/MaPT_19_20_I/` assume: git is configured (see above) and repository is cloned  
 remove something, eg: `rm -rf lab_02/`  
 `git add .` update indexed files (eg. remove files)  
 `git commit -am "remove files or similar description"` record changes to the repository  
 `git push`  
 
 ### change branch
-`cd git/MaPT/` assume: git is configured (see above) and repository is cloned  
+`cd git/MaPT_19_20_I/` assume: git is configured (see above) and repository is cloned  
 `git branch -a` (optional) print all available branches, local and remote  
 sample output:  
 >>* master  
@@ -117,7 +117,7 @@ means: available one local branch of the name `master` and two remote branches: 
 * if `common` is remote (not need to type `git checkout remotes/origin/common`), git create new branch and `pull` recent version from server  
 
 ### create new branch
-`cd git/MaPT/` assume: git is configured (see above) and repository is cloned  
+`cd git/MaPT_19_20_I/` assume: git is configured (see above) and repository is cloned  
 `git branch -a` (optional) to make sure name of the new branch is not already used  
 `git checkout parent_branch` (optional) change to branch that will be parent of new branch
 `git checkout -b my_branch` create new branch of the name `my_branch`, it will be created only locally! parent branch will be `parent_branch`  
