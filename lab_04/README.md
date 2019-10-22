@@ -20,7 +20,7 @@ GIT is a distributed control system. Everything could be local: branches, comple
 
 0. Create `git` directory and execute `cd git`. It is not obligatory, however, it is good practice to have a directory dedicated to various git repositories
 
-1. `git clone https://github.com/MiTPMaPT/MaPT` setup local repository and download files from remote to local  
+1. `git clone https://github.com/MiTPMaPT/MaPT_19_20_I` setup local repository and download files from remote to local  
 `cd MaPT`  
 `ls -al`  
 Now you can change something locally eg: 'echo "myName" >> new_file.txt'
@@ -74,7 +74,7 @@ For example, file of the name README.md.tmp will not be added to index by the co
 
 ## 3. GIT by examples
 ### init git local repository (clone from remote)
-`git clone https://github.com/MiTPMaPT/MaPT` setup local repository and download files from remote to local  
+`git clone https://github.com/MiTPMaPT/MaPT_19_20_I` setup local repository and download files from remote to local  
 
 `cd MaPT`  
 `git config --global user.name "Your Name"` **first time you need configure git: provide Name and e-mail**  
