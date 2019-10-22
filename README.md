@@ -21,3 +21,4 @@ Jarosław Bułat - main lecturer of the course
 -  final grade = AGH_LUT_marks_(% of points )
    https://www.agh.edu.pl/fileadmin/default/templates/images/dokumenty/uchwaly_senatu/2017/0426/26_04_2017_42_.pdf
     
+xD
