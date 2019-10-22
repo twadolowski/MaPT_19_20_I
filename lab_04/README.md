@@ -1,4 +1,4 @@
-# lab 09
+# lab 04
 author: Jarosław Bulat
 ## 1. Introduction to GIT 
 
