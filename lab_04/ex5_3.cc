@@ -13,7 +13,9 @@ int main(){
 		else {
 			cout <<"x is not in [-7. 11) interval"<<endl;
 			}
-	}
+	}else {
+cout <<"x is not in [-7. 11) interval"<<endl;
+}
 	
 
 
