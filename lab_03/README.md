@@ -2,7 +2,7 @@
 
 ## Introduction to C/C++
 
-### Compiling program using `g++`
+### 1. Compiling program using `g++`
 1. run console (terminal)
 2. open a text editor (e.g. `gedit`),
 3. copy and paste into a text editor code of a *Hello world* program and save it with a `.cc`, e.g. `helloworld.cc`,
@@ -29,7 +29,7 @@ Run the program using command (in console):
 
 `g++ -o -Wall helloworld helloworld.cc` 
 
- ### First program. Arithmetic operations. Priority of operations.
+ ### 2. First program. Arithmetic operations. Priority of operations.
 
 Copy, compile and run the following code (place the code in the new `.cc` file):
 ```
@@ -52,7 +52,7 @@ Did the `c` and `b` values changed? Can we change the value of once initialized 
 3. Next, check if program will be compiled/type of errors if the name of a one variable is e.g. `1a`.
 Initialize `b` with 0, and add the line `c=5/b`. Compile and execute. What happend? 
 
-### Second program. Priority of operators. Variable initialization.
+### 3. Second program. Priority of operators. Variable initialization.
 Copy, compile and run the following code (place the code in the new `.cc` file):
 ```
 #include <iostream>
@@ -74,7 +74,7 @@ int main() {
 2. Modify program in such a way, that you can see the value of the uninitialize variable.
 Is such situation potentialy dangerous?
 
-### pre/post incrementation/decrementation
+### 4. pre/post incrementation/decrementation
 
 Copy, compile and run the following code (place the code in the new `.cc` file):
 ```
@@ -101,3 +101,9 @@ std::cout << “c =” << c << std::endl;
 4. Add the line `c=++a++;` and modify progam to see the values of the `a` and `c` before and after the operation. What happend? 
 5. Now modify the line with `c=++(++a);` and print values of the `a` and `c` before and after the operation. What happend? 
 
+#### 5. Comparison
+1. Compile `lab_03/ex6.png` ;-) (improvise if necessary)
+2. Verify logical value of {-1, 0, 20}. You can compare (==) this value to `true` or `false` to do that. 
+
+#### 6. Logical operators
+1. Using `lab_03/ex7.cc` test variable `x` if it lie in the interval: [-30, 5).
