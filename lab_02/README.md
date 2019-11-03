@@ -55,7 +55,7 @@ Key points in the file system:
 1. In the home directory, create a directory named `A`.
 2. In the `A` directory create the `a` directory.
 3. Being in the `~` directory, create an empty file named `data.txt` in the `~/A/a/` directory.
-4. Go to the `~/A/a/` directory and use the `echo` command to enter a `word.txt` file, text containing any word. Then use the `echo` command to append to the same file another sentence that does not contain the previous text.
+4. Go to the `~/A/a/` directory and use the `echo` command to enter a `data.txt` file, text containing any word. Then use the `echo` command to append to the same file another sentence that does not contain the previous text.
 5. Go to the `~/A/` directory and write the contents of `data.txt` in the console. Then run any graphics editor and check the contents of the same file.
 6. Open two consoles. In one edit file using the `vim` editor. In the second, write the contents of this file with `cat`. Please make changes to the file and see what we see in the second console.
 
