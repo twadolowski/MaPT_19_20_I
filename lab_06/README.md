@@ -2,7 +2,7 @@
 # Lab 06
 
 ## C++. Operators. Conditional execution continuation.Scope of variable. Loops
-author: Jarosław Bulat, Artur Kos
+author: Jarosław Bułat, Artur Kos
 
 ### 1. Operators
 #### 1.1 Casting operators
