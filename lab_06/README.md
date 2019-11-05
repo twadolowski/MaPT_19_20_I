@@ -53,8 +53,8 @@ int main() {
 ```
 2. Check (display) how the value of `a` changes after shifting bits  right` >> `by 1, 2, 3, 4 positions (bits). 
 Is there some pattern?  
-3. Using the `&`(bitwise AND) or `|`(bitwise OR) operator, set the second bit of the variable `a = 128`into 1.  
-4. Using the `&` or `|` operator, set the 7th bit of the variable `a = 128` into 0.
+3. Using the `&`(bitwise AND) or `|`(bitwise OR) operator, set the second bit of the variable `a `into 1 (change the value of `a ` to 66).  
+4. Using the `&` or `|` operator, set the 7th bit of the variable `a` into 0 (change the value of `a ` to 2).
 
 
 ## 2. Blocs and range of variables
