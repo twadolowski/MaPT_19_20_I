@@ -134,7 +134,7 @@ int main() {
 4. How to interpret the results displayed by the instructions in lines 23-24?
 
 #### Ex 2.4
-1. Write a program which calculates the values of the function $y = x^2+1$  for numbers from the range  `<-3.3>  ` with the step `0.1 ` .
+1. Write a program which calculates the values of the function *y = x^2+1*  for numbers from the range  `<-3.3>  ` with the step `0.1 ` .
 Use the loop and appropriate type of variables.
 2. Store values representing function’s domain and computed values in two arrays.
 3. Display elements representing function’s arguments and corresponding values in two parallel columns.
