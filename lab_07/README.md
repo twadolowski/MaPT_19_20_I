@@ -94,9 +94,9 @@ int main() {
     }
 }
 ```
-4. Try to assign some new values to the array elements of indexes higher than `tab_size` (e.g., `tab [10] = 34`);
-5. Modify the program so that the o elements with indexes higher than `tab_size` (added o in point 1) will be displayed. 
-6. Can such overindexation cause troubles?
+2. Try to assign some new values to the array elements of indexes higher than `tab_size` (e.g., `tab [10] = 34`);
+3. Modify the program so that the elements with indexes higher than `tab_size` (added in point 2) will be displayed. 
+4. Can such overindexation cause troubles?
 
 
 #### Ex 2.3
