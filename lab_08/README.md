@@ -26,7 +26,7 @@ to automatically change the size of the tables with stored function’s domain a
 1. Define structure consisting of at least two elements.
 2. Declare 10-element table of the structure defined above.
 3. Using loop, initialize all structures in the table (each element of structure individually).
-2. 2. Save code to `lab_08/ex1_3.cc` and push it to your branch.
+4. Save code to `lab_08/ex1_3.cc` and push it to your branch.
 
 ## 2. Pointers
 #### EX2.1 pointers to chosen element of tab
