@@ -203,6 +203,6 @@ int main(){
     delete p;
 }
 ```
-2. Make sure, in the line `cout << *x << endl;`, variable pointed by  `x ` still exist. 
+2. Make sure, in the line `cout << *x << endl;`, variable pointed by  `p ` still exist. 
 3. Save code and push it to your branch.
 
