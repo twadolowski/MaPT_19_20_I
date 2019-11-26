@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main(){
+	int width = 1920;
+
+	for (int x = 0; x < width; ++x ) {
+		if (x>=15 && x<=30){
+			continue;
+		} else if (x == 51){
+		break;
+		}
+		std::cout << x << std::endl;
+	}
+}
